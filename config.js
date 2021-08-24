@@ -1,15 +1,15 @@
 const config = {
   style: "mapbox://styles/mapbox/light-v10",
   accessToken:
-    "pk.eyJ1IjoibWFwYm94LWNvbW11bml0eSIsImEiOiJja2tkN21jcjAwMG51MnBxdHAxemdueGpzIn0.e0IzLkytGq4pcGGieP8KNA",
-  CSV: "./Sample_Data.csv",
-  center: [-120.234, 47.398],
+    "pk.eyJ1IjoibWpkYW5pZWxzb24iLCJhIjoiY2s5bTJodXluMHVhYTNybWk1eTMxN2lidiJ9.DU-KkKoefUHAlSidTjqsiQ",
+  CSV: "./BooneTrace_North.csv",
+  center: [-84.25, 38.2],
   zoom: 6,
   title: "US Bike Route 21 North",
   description:
     "Replace with information about your application. Ex. You can search by address to sort the list below by distance. You can also filter the list by language support options, which days a location is open, and whether they have devices to use to complete the survey by phone or online.",
-  sideBarInfo: ["Location_Name", "Address", "Phone"],
-  popupInfo: ["Location_Name"],
+  sideBarInfo: ["Address", "Phone"],
+  popupInfo: ["Name"],
   filters: [
     {
       type: "dropdown",
