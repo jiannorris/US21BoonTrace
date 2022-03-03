@@ -7,8 +7,8 @@ const config = {
   zoom: 7,
   title: "US Bike Route 21",
   description:
-    "This route follows US 21N from Cumberland Gap to Maysville You can search by category (lodging, dining, etc.) by city, or by county.",
-  sideBarInfo: ["Name", "Address", "Phone"],
+    "This route follows US 21 from Cumberland Gap to Maysville. You can search by category (lodging, dining, etc.) by city, or by county.",
+  sideBarInfo: ["Location_Name", "Address", "Phone"],
   popupInfo: ["Name"],
   filters: [
     {
@@ -37,7 +37,7 @@ const config = {
       type: "checkbox",
       title: "Services available",
       columnHeader: "Services available", // Case sensitive - must match spreadsheet entry
-      listItems: ["Restrooms", "Wi-Fi", "Cold beer"], // Case sensitive - must match spreadsheet entry; This will take up to six inputs but is best used with a maximum of three;
+      listItems: ["Restrooms", "Wi-Fi"], // Case sensitive - must match spreadsheet entry; This will take up to six inputs but is best used with a maximum of three;
     },
     {
       type: "dropdown",
