@@ -16,7 +16,7 @@ const config = {
       title: "Category: ",
       columnHeader: "Category",
       listItems: [
-        "Boone Trace Markers"
+        "Boone Trace Markers",
         "Points of Interest",
         "Lodging",
         "Dining",
