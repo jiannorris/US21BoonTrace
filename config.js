@@ -8,8 +8,8 @@ const config = {
   title: "Daniel Boone Bike Route 21",
   description:
     "This route follows US 21N from Cumberland Gap to Maysville You can search by category (lodging, dining, etc.) by city, or by county.",
-  sideBarInfo: ["Name", "Address", "Phone"],
-  popupInfo: ["Name"],
+  sideBarInfo: ["Location_Name", "Address", "Phone"],
+  popupInfo: ["Location_Name"],
   filters: [
     {
       type: "dropdown",
