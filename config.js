@@ -2,7 +2,7 @@ const config = {
   style: "mapbox://styles/bereaepg/ckpwsckpf4sb417n33parhieh",
   accessToken:
     "pk.eyJ1IjoiYmVyZWFlcGciLCJhIjoiY2twcHJrdTQ2MDJ1aTJ2bzY4dWhmZG4wayJ9.3cIych-Xcf-apOrR1xlzaw",
-  CSV: "./ABR v3.csv",
+  CSV: "./Bell County.csv",
   center: [-84.3, 37.6],
   zoom: 7,
   title: "Daniel Boone Bike Route 21",
